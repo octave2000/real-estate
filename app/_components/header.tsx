@@ -13,12 +13,12 @@ const navs = ["Condos", "Houses", "Commercial", "For rent", "About", "Contact"];
 
 export function Header() {
   return (
-    <header className="flex justify-between px-6 py-10 bg-transparent fixed top-0 z-10 w-full">
+    <header className="flex justify-between px-10 py-10 bg-transparent fixed top-0 z-10 w-full">
       <div className="text-3xl">logo</div>
       <nav>
-        <ul className="flex gap-6">
+        <ul className="flex gap-10">
           {navs.map((n) => (
-            <li>{n}</li>
+            <li className="font-medium text-xl">{n}</li>
           ))}
         </ul>
       </nav>
