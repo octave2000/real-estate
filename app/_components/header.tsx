@@ -11,8 +11,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Menu, X } from "lucide-react";
-
-const navs = ["Condos", "Houses", "Commercial", "For rent", "About", "Contact"];
+import { navs } from "@/lib/constants/constants";
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -83,7 +82,7 @@ export function Header() {
               <SelectTrigger className="w-24 border border-gray-300 bg-white">
                 <SelectValue placeholder="USD" />
               </SelectTrigger>
-              <SelectContent className="z-[9999]">
+              <SelectContent className="z-10">
                 <SelectGroup>
                   <SelectItem value="usd">USD</SelectItem>
                   <SelectItem value="rwf">RWF</SelectItem>
