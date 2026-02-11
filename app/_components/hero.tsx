@@ -19,7 +19,7 @@ export function Hero() {
 
       <div className="relative z-10 pt-20 sm:pt-[100px] md:pt-[150px] px-4 sm:px-6 md:px-10 flex flex-col gap-6">
         <h1 className="text-2xl sm:text-4xl md:text-6xl font-medium tracking-tight text-gray-900 leading-[1.1] text-center md:text-left">
-          Find your next hoes
+          Find your next hoe
         </h1>
 
         {/* Main section */}
