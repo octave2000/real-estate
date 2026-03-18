@@ -21,7 +21,7 @@ export function Hero() {
         <h1 className="text-2xl sm:text-4xl md:text-6xl font-medium tracking-tight text-gray-900 leading-[1.1] text-center md:text-left">
           Find your next working well in llproduction please let me go to zero
           config bonheursss working now for domain octave the goat forvers from
-          a push to check fabrice error
+          a push to check fabrice error now
         </h1>
 
         {/* Main section */}
