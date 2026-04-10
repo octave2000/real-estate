@@ -26,13 +26,24 @@ export function Hero() {
 
         {/* Main section */}
         <div className="flex flex-col md:flex-row gap-6 pt-8 w-full">
-          <Image
-            src="/kk.jpg"
-            alt="rent"
-            width={1920}
-            height={1080}
-            className="w-full md:w-[70%] h-[220px] sm:h-[350px] md:h-[600px] object-cover rounded-sm shadow-lg shadow-black"
-          />
+          <div className="w-full md:w-[70%] flex flex-col gap-4">
+            <Image
+              src="/kk.jpg"
+              alt="rent"
+              width={1920}
+              height={1080}
+              className="w-full h-[220px] sm:h-[350px] md:h-[600px] object-cover rounded-sm"
+            />
+            <div className="w-full aspect-video">
+              <iframe
+                src="https://iframe.mediadelivery.net/embed/623584/cca04a00-1ddb-46c5-bb96-95347a24f0f1"
+                title="Property video"
+                className="w-full h-full border-0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
 
           <div className="bg-white w-full md:w-[30%] rounded-sm px-4 sm:px-6 py-6 text-base sm:text-lg md:text-xl flex flex-col gap-y-8 sm:gap-y-10 h-auto md:h-[600px]">
             <div className="flex justify-between items-start flex-wrap gap-2">
